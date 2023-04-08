@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>YouTube Vortex</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <div class="header">
+    <h1>YouTube Vortex</h1>
+    <label>by Icter1</label>
+  </div>
+  <form class="subheader">
+      <label for="url">Enter YouTube Video URL:</label><br><br>
+      <input type="text" id="url" name="url" placeholder="Click to enter text"><br><br>
+      <button type="button" onclick="addVideo()">Add Video</button>
+    </form>
+  <div class="container" id="video-container">
+    <!-- Videos will be added here dynamically -->
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
